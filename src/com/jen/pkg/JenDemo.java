@@ -9,8 +9,6 @@ import junit.framework.Assert;
 
 public class JenDemo {
 	
-	private static final boolean False = false;
-
 	@Test
 	public void testA() throws InterruptedException
 	{
