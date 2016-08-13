@@ -21,7 +21,7 @@ public class JenDemo {
 		//WebDriver driver = new ChromeDriver();
 	
 		driver.get("https://www.google.co.in");
-		Assert.assertTrue(False);;
+		Assert.fail();
 		Thread.sleep(10);
 		//driver.close();
 	}
