@@ -5,8 +5,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
+import junit.framework.Assert;
+
 public class JenDemo {
 	
+	private static final boolean False = false;
+
 	@Test
 	public void testA() throws InterruptedException
 	{
@@ -17,7 +21,7 @@ public class JenDemo {
 		//WebDriver driver = new ChromeDriver();
 	
 		driver.get("https://www.google.co.in");
-		
+		Assert.assertTrue(False);;
 		Thread.sleep(10);
 		//driver.close();
 	}
