@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14530" started-at="2016-08-13T13:07:36Z" finished-at="2016-08-13T13:07:51Z">
+  <suite name="Suite" duration-ms="47" started-at="2016-08-15T12:50:54Z" finished-at="2016-08-15T12:50:54Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14530" started-at="2016-08-13T13:07:36Z" finished-at="2016-08-13T13:07:51Z">
+    <test name="Test" duration-ms="47" started-at="2016-08-15T12:50:54Z" finished-at="2016-08-15T12:50:54Z">
       <class name="com.jen.pkg.JenDemo">
-        <test-method status="PASS" signature="testA()[pri:0, instance:com.jen.pkg.JenDemo@80ec1f8]" name="testA" duration-ms="14395" started-at="2016-08-13T18:37:36Z" finished-at="2016-08-13T18:37:51Z">
+        <test-method status="PASS" signature="testA()[pri:0, instance:com.jen.pkg.JenDemo@7dc36524]" name="testA" duration-ms="15" started-at="2016-08-15T18:20:54Z" finished-at="2016-08-15T18:20:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="testB()[pri:0, instance:com.jen.pkg.JenDemo@80ec1f8]" name="testB" duration-ms="92" started-at="2016-08-13T18:37:51Z" finished-at="2016-08-13T18:37:51Z">
+        <test-method status="PASS" signature="testB()[pri:0, instance:com.jen.pkg.JenDemo@7dc36524]" name="testB" duration-ms="0" started-at="2016-08-15T18:20:54Z" finished-at="2016-08-15T18:20:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testB -->
