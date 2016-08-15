@@ -12,15 +12,15 @@ import com.relevantcodes.extentreports.LogStatus;
 import junit.framework.Assert;
 
 public class JenDemo {
-	//ExtentReports er = new ExtentReports("./ExtentReport.html");
+	ExtentReports er = new ExtentReports("./ExtentReport.html");
 	@Test
 	public void testA() 
 	{
 		//System.setProperty("webdriver.gecko.driver", "C:\\Satya\\Softwares\\Firefox\\geckodriver.exe");
 		//System.setProperty("webdriver.chrome.driver", "C:\\Satya\\Softwares\\chromedriver_win32\\chromedriver.exe");
-		//ExtentTest t = er.startTest("testA");
-		//t.log(LogStatus.PASS, "Hi--Bye");
-		//er.endTest(t);
+		ExtentTest t = er.startTest("testA");
+		t.log(LogStatus.PASS, "Hi--Bye");
+		er.endTest(t);
 		//er.flush();
 		//WebDriver driver = new FirefoxDriver();
 		//WebDriver driver = new ChromeDriver();
@@ -36,10 +36,10 @@ public class JenDemo {
 	{
 		
 		System.out.println("TestB");
-		//ExtentTest t = er.startTest("testB");
-		//t.log(LogStatus.FAIL, "Hi--Fail");
-		//er.endTest(t);
-		//er.flush();
+		ExtentTest t = er.startTest("testB");
+		t.log(LogStatus.FAIL, "Hi--Fail");
+		er.endTest(t);
+		er.flush();
 		
 	}
 	
